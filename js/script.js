@@ -12,7 +12,7 @@ var x = document.querySelectorAll(".container a[href]");
     var showModal = function (event) {
         event.preventDefault();
         var modals = document.querySelectorAll('.modal');
-        for (i=0; i < modals.length; i++ ) {
+        for (i = 0; i < modals.length; i++) {
             modals[i].classList.remove('show');
         }
 
