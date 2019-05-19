@@ -1,12 +1,5 @@
 'use strict';
 
-/* JAK MOŻNA WYCIĄGNĄĆ WSZYSTKIE ELEMENTY 'HREF' W FUNKCJI SHOW MODAL
-var x = document.querySelectorAll(".container a[href]");
-  for (var i=0; i < x.length; i++) {
-    console.log(x[i].getAttribute('href'));
-  }
-  */
-
 (function () {
 
     var showModal = function (event) {
